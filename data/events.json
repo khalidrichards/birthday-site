@@ -1,0 +1,47 @@
+{
+    "events": [
+        {
+            "date": "09/08/2023",
+            "event_title": "Karaoke",
+            "event_description": "Lorem ipsum blah",
+            "event_location": "KTown",
+            "start_time": "06:30 PM",
+            "end_time": "08:30PM"
+        },
+        {
+            "date": "09/08/2023",
+            "event_title": "Dinner",
+            "event_description": "Lorem ipsum blah",
+            "event_location": "Korean Fried Chicken place",
+            "start_time": "08:45 PM"
+        },
+        {
+            "date": "09/09/2023",
+            "event_title": "Bowling",
+            "event_description": "Lorem ipsum blah",
+            "event_location": "KTown",
+            "start_time": "02:00 PM"
+        },
+        {
+            "date": "09/09/2023",
+            "event_title": "Dinner",
+            "event_description": "Lorem ipsum blah",
+            "event_location": "Somewhere",
+            "start_time": "07:00 PM"
+        },
+        {
+            "date": "09/10/2023",
+            "event_title": "Brunch",
+            "event_description": "Lorem ipsum blah",
+            "event_location": "Somewhere",
+            "start_time": "12:30PM"
+        },
+        {
+            "date": "09/10/2023",
+            "event_title": "Dave & Buster's",
+            "event_description": "Lorem ipsum blah",
+            "event_location": "D&B",
+            "start_time": "03:00 PM"
+        }
+    ]
+}

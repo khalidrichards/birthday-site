@@ -1,0 +1,27 @@
+<html>
+    <header>
+
+    </header>
+    <body>
+        <h1> Khalid's 30th Birthday</h1>
+        <div id="countdown"></div>
+        <div id="events"></div>
+        <div id="wishlist"></div>
+
+        <script src="./js/countdown.js"></script>
+        <script src="./js/data.js"></script>
+        <script src="./js/events.js"></script>
+        <script src="./js/wishlist.js"></script>
+        <script>
+            /* Set up the Countdown */
+            updateCountdown();
+            setTimeout(updateCountdown, 60 * 60 * 24 * 1000); /* Updates every 24 hours */
+
+            /* Set up the events. */
+            renderAllEvents(events.events);
+
+            /* Set up the wishlist elements */
+            renderAllWishlistItems(wishlist);
+        </script>
+    </body>
+</html>
