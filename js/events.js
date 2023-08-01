@@ -12,7 +12,7 @@ function wrapInI(text) {
 }
 
 function renderEvent(eventInfo) {
-    var eventHtml = '<div class="event_info col">';
+    var eventHtml = '<div class="event_info col text-center">';
     eventHtml += wrapInH2(eventInfo.event_title) + BR_TAG;
     eventHtml += wrapInP(eventInfo.date + " --- " + eventInfo.start_time) + BR_TAG;
     eventHtml += wrapInP(eventInfo.event_location) + BR_TAG;
