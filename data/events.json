@@ -5,21 +5,21 @@
             "event_title": "Karaoke",
             "event_description": "Lorem ipsum blah",
             "event_location": "KTown",
-            "start_time": "06:30 PM",
-            "end_time": "08:30PM"
+            "start_time": "06:15 PM",
+            "end_time": "09:15PM"
         },
         {
             "date": "09/08/2023",
             "event_title": "Dinner",
-            "event_description": "Lorem ipsum blah",
-            "event_location": "Korean Fried Chicken place",
-            "start_time": "08:45 PM"
+            "event_description": "After singing our hearts out, let's enjoy some KFC (Korean Fried Chicken) together!",
+            "event_location": "Turntable Chicken Jazz",
+            "start_time": "09:30 PM"
         },
         {
             "date": "09/09/2023",
             "event_title": "Bowling",
-            "event_description": "Lorem ipsum blah",
-            "event_location": "KTown",
+            "event_description": "While I'm not great at bowling, I still have occasional cravings for the sport. Let's enjoy some light refreshments and embarrass ourselves.",
+            "event_location": "Frames Bowling Lounge",
             "start_time": "02:00 PM"
         },
         {
@@ -38,9 +38,9 @@
         },
         {
             "date": "09/10/2023",
-            "event_title": "Dave & Buster's",
-            "event_description": "Lorem ipsum blah",
-            "event_location": "D&B",
+            "event_title": "More Games! D&B",
+            "event_description": "Anyone who knows me knows how much I love a good time at the arcade. Let's play some games, maybe grab some drinks and finish the weekend off strong.",
+            "event_location": "Dave & Buster's (@ Atlantic Center)",
             "start_time": "03:00 PM"
         }
     ]
