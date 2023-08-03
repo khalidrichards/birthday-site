@@ -5,26 +5,26 @@ var events = {
             "event_title": "Karaoke",
             "event_description": "Lorem ipsum blah",
             "event_location": "KTown",
-            "start_time": "06:30 PM",
-            "end_time": "08:30PM"
+            "start_time": "06:15 PM",
+            "end_time": "09:15PM"
         },
         {
             "date": "09/08/2023",
-            "event_title": "Dinner",
-            "event_description": "Lorem ipsum blah",
-            "event_location": "Korean Fried Chicken place",
-            "start_time": "08:45 PM"
+            "event_title": "Post-Karaoke Dinner",
+            "event_description": "After singing our hearts out, let's enjoy some KFC (Korean Fried Chicken) together!",
+            "event_location": "Turntable Chicken Jazz",
+            "start_time": "09:30 PM"
         },
         {
             "date": "09/09/2023",
             "event_title": "Bowling",
-            "event_description": "Lorem ipsum blah",
-            "event_location": "KTown",
+            "event_description": "While I'm not great at bowling, I still have occasional cravings for the sport. Let's enjoy some light refreshments and embarrass ourselves.",
+            "event_location": "Frames Bowling Lounge",
             "start_time": "02:00 PM"
         },
         {
             "date": "09/09/2023",
-            "event_title": "Dinner",
+            "event_title": "A Fancier Dinner",
             "event_description": "Lorem ipsum blah",
             "event_location": "Somewhere",
             "start_time": "07:00 PM"
@@ -38,9 +38,9 @@ var events = {
         },
         {
             "date": "09/10/2023",
-            "event_title": "Dave & Buster's",
-            "event_description": "Lorem ipsum blah",
-            "event_location": "D&B",
+            "event_title": "More Games! D&B",
+            "event_description": "Anyone who knows me knows how much I love a good time at the arcade. Let's play some games, maybe grab some drinks and finish the weekend off strong.",
+            "event_location": "Dave & Buster's (@ Atlantic Center)",
             "start_time": "03:00 PM"
         }
     ]
@@ -83,10 +83,38 @@ var wishlist = {
         }
     ],
     "books": [
-
+        {
+            "name": "<i>Linear Algebra Done Right</i>, Sheldon Axler",
+            "sources": {
+                "amazon": "https://www.amazon.com/Linear-Algebra-Right-Undergraduate-Mathematics/dp/3319110799/?_encoding=UTF8&pd_rd_w=bDmr4&content-id=amzn1.sym.5f7e0a27-49c0-47d3-80b2-fd9271d863ca%3Aamzn1.symc.e5c80209-769f-4ade-a325-2eaec14b8e0e&pf_rd_p=5f7e0a27-49c0-47d3-80b2-fd9271d863ca&pf_rd_r=FHMW9JE9WQC6VYY434A3&pd_rd_wg=jxnZv&pd_rd_r=71de8d3a-27e2-4e3d-98a8-656ea2a3c385&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
+            }
+        },
+        {
+            "name": "<i>Principles of Mathematical Analysis</i>, Walter Rudin",
+            "sources": {
+                "amazon": "https://www.amazon.com/Principles-Mathematical-Analysis-International-Mathematics/dp/0070856133/ref=sr_1_1?keywords=principles+of+mathematical+analysis&qid=1691031414&sprefix=Principles+of+Mathemati%2Caps%2C97&sr=8-1&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc"
+            }
+        }
     ],
     "alcohol": [
+        {
+            "name": "Casa Dragones Tequila",
+            "sources": {
 
+            }
+        },
+        {
+            "name": "Yamazaki 12-Year Whiskey",
+            "sources": {
+
+            }
+        },
+        {
+            "name": "Woodford Reserve Double-Oaked Bourbon",
+            "sources": {
+
+            }
+        }
     ],
     "miscellaneous": [
 

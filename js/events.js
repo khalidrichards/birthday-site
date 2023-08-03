@@ -22,7 +22,7 @@ function renderEvent(eventInfo) {
 }
 
 function renderAllEvents(events) {
-    eventsInnerHtml = '<h1> Events </h1>';
+    eventsInnerHtml = '<h1 class="section-header"> Events </h1>';
     eventsInnerHtml += BR_TAG + wrapInP(events_text);
     for(var i = 0; i < events.length; i++) {
         var makeNewRow = i % 2 === 0;
