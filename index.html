@@ -19,11 +19,13 @@
         </div>
         <div id="events" class="container"></div>
         <div id="wishlist"></div>
+        <div id="faq"></div>
 
         <script src="./js/countdown.js"></script>
         <script src="./js/data.js"></script>
         <script src="./js/events.js"></script>
         <script src="./js/wishlist.js"></script>
+        <script src="./js/faq.js"></script>
         <script>
             /* Set up the Countdown */
             updateCountdown();
@@ -34,6 +36,9 @@
 
             /* Set up the wishlist elements */
             renderAllWishlistItems(wishlist);
+
+            /* Set up FAQ */
+            renderAllFaq(faq.faq);
         </script>
     </body>
 </html>

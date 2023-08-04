@@ -120,3 +120,32 @@ var wishlist = {
 
     ]
 };
+
+var faq = {
+    "faq": [
+        {
+            "question": "Can I bring a friend/my [new] partner/etc.?",
+            "answer": "Absolutely not. While I am happy some of y'all have folks in your life that you love, my birthday celebration is NOT the time for me to meet them. Let's go out for drinks some other time, but I am not entertaining new \"friends\" that weekend."
+        },
+        {
+            "question": "What should I sign up for?",
+            "answer": "Whatever you want to show up to. I'm making the attendance list available for folks to find other folks they could also socialize with."
+        },
+        {
+            "question": "Wait, do you expect us to go to <i>all</i> of these events?",
+            "answer": "Not at all! I mainly try and curate a weekend of events that people can weave in and out of. I am blessed to have a lot of y'all that care about me, so I wanted to give opportunities to hang out with everyone."
+        },
+        {
+            "question": "Now are you really expecting [insert item here] from the wishlist? It's kinda pricey.",
+            "answer": "The wishlist is mainly meant to be something you can refer to if you have no idea of the things I <i>would</i> like. I'm mainly interested in your attendance, but if you're not a great gift giver, choose something off the list. (Note: The \"Miscellaneous\" section has gift cards. I love a gift card. "
+        },
+        {
+            "question": "When should we make our event desires known?",
+            "answer": "Please RSVP to things no later than <b>August 15</b>. I will <b>NOT</b> be looking for you if you do not sign up for something by then."
+        },
+        {
+            "question": "My question wasn't on here...",
+            "answer": "Cool; you can hit me up and I'll get back to you as soon as possible."
+        }
+    ]
+}
