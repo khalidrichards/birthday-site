@@ -53,7 +53,7 @@ function renderWishlistItem(item) {
 }
 
 function renderAllWishlistItems(wishlist) {
-    var wishlistHtml = '<h2> Birthday Wishlist </h2>' + BR_TAG;
+    var wishlistHtml = '<h2 class="section-header"> Birthday Wishlist </h2>' + BR_TAG;
     for (var category in wishlist) {
         var categoryTitle = transformCategoryKeyIntoName(category);
         wishlistHtml += wrapInH3(categoryTitle);
