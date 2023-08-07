@@ -82,6 +82,14 @@ var wishlist = {
             }
         }
     ],
+    "other_games": [
+        {
+            "name": "Queen by Midnight",
+            "sources": {
+                "website": "https://darringtonpress.com/queen-by-midnights-gen-con-debut-how-to-play-and-full-release/ (Note: Only available after Aug 22.)"
+            }
+        }
+    ],
     "books": [
         {
             "name": "<i>Linear Algebra Done Right</i>, Sheldon Axler",
