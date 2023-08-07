@@ -88,6 +88,12 @@ var wishlist = {
             "sources": {
                 "website": "https://darringtonpress.com/queen-by-midnights-gen-con-debut-how-to-play-and-full-release/ (Note: Only available after Aug 22.)"
             }
+        },
+        {
+            "name": "Framework",
+            "sources": {
+                "website": "TBD"
+            }
         }
     ],
     "books": [

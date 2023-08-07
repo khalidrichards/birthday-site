@@ -1,0 +1,15 @@
+.faq_item {
+    background-color: #7a73fb;
+    border-radius: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.faq_question {
+    font-size: 22pt;
+}
+
+.faq_answer {
+    font-size: 16pt;
+}
