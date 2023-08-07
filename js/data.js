@@ -122,6 +122,11 @@ var wishlist = {
             "sources": {
 
             }
+        },
+        {
+            "name": "Clase Azul Mezcal",
+            "sources": {
+            }
         }
     ],
     "miscellaneous": [

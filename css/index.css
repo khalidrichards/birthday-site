@@ -2,7 +2,7 @@
 
 body {
     background: rgb(122,115,251);
-    background: linear-gradient(90deg, rgba(122,115,251,1) 0%, rgba(250,149,254,1) 47%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(122,115,251,1) 0%, rgba(250,149,254,1) 47%, rgba(0,212,255,1) 100%);
 }
 
 br {
