@@ -39,7 +39,7 @@ function wrapInI(text) {
 }
 
 function renderWishlistItem(item) {
-    var itemHtml = '<div class="wishlist_item">';
+    var itemHtml = '<div class="wishlist_item col">';
     itemHtml += wrapInH3(item.name) + BR_TAG;
     for (var source in item.sources) {
         var link = item.sources[source];
@@ -55,12 +55,21 @@ function renderWishlistItem(item) {
 function renderAllWishlistItems(wishlist) {
     var wishlistHtml = '<h2 class="section-header"> Birthday Wishlist </h2>' + BR_TAG;
     for (var category in wishlist) {
+        wishlistHtml += '<div class="wishlist-category">';
+        wishlistHtml += '<div class="wishlist-category-name">';
         var categoryTitle = transformCategoryKeyIntoName(category);
         wishlistHtml += wrapInH3(categoryTitle);
+        wishlistHtml += '</div>';
+        wishlistHtml += '<div class="wishlist-items row">';
         var categoryItems = wishlist[category];
         for (var i = 0; i < categoryItems.length; i++) {
+            wishlistHtml += '<div class="col>"';
             wishlistHtml += renderWishlistItem(categoryItems[i]);
+            wishlistHtml += '</div>';
         }
+        wishlistHtml += '</div>';
+        wishlistHtml += '</div>';
+
     }
     var wishlistElement = document.getElementById('wishlist');
     wishlistElement.innerHTML += wishlistHtml;
