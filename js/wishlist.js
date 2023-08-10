@@ -1,15 +1,31 @@
 var BR_TAG = "<br />"
 
 var sourceImageMap = {
-    "amazon": "./img/amazon.ico",
-    "gamestop": "./img/gamestop.ico"
+    "amazon": {
+        "source": "font-awesome",
+        "value": "fa-brands fa-amazon",
+    },
+    "gamestop": {
+        "source": "image",
+        "value": "./img/gamestop.ico",
+    },
+    "website": {
+        "source": "font-awesome",
+        "value": "fa-solid fa-globe",
+    }
 };
 
 function getImageForSource(source) {
     var imageSrc = sourceImageMap[source];
     if (imageSrc !== undefined) {
-        var imageHtml = '<img src="' + imageSrc + '"></img>';
-        return imageHtml;
+        switch(imageSrc.source) {
+            case 'font-awesome':
+                return '<i class="' + imageSrc.value + '"></i>';
+            case 'image':
+                return '<img src="' + imageSrc.value + '"></img>';
+            default:
+                console.error('Incorrect image source: ', imageSrc.source);
+        }
     }
     return;
 }
@@ -63,7 +79,7 @@ function renderAllWishlistItems(wishlist) {
         wishlistHtml += '<div class="wishlist-items row">';
         var categoryItems = wishlist[category];
         for (var i = 0; i < categoryItems.length; i++) {
-            wishlistHtml += '<div class="col>"';
+            wishlistHtml += '<div class="col">';
             wishlistHtml += renderWishlistItem(categoryItems[i]);
             wishlistHtml += '</div>';
         }
