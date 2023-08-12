@@ -60,7 +60,7 @@ var wishlist = {
         {
             "name": "Magic: the Gathering -- The Lord of the Rings, Tales of Middle-Earth Gift Bundle",
             "sources": {
-                "montasy": "https://montasynyc.com/collections/pre-order-1/products/universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-gift-bundle"
+                "website": "https://montasynyc.com/collections/pre-order-1/products/universes-beyond-the-lord-of-the-rings-tales-of-middle-earth-gift-bundle"
             }
         },
         {
@@ -79,6 +79,12 @@ var wishlist = {
             "name": "Magic: the Gathering -- Wilds of Eldraine Collector Booster Box",
             "sources": {
                 "amazon": "https://www.amazon.com/Magic-Gathering-Eldraine-Collector-Booster/dp/B0C3T4VZN8?ref_=ast_sto_dp"
+            }
+        },
+        {
+            "name": "Disney Lorcana: The First Chapter Booster Box",
+            "sources": {
+                "website": "https://www.bestbuy.com/site/disney-lorcana-booster-pack-display/6550309.p?skuId=6550309"
             }
         }
     ],
@@ -136,6 +142,27 @@ var wishlist = {
         }
     ],
     "miscellaneous": [
+        {
+            "name": "Gift Cards",
+            "sources": [
+                {
+                    "source": "amazon",
+                    "site": "https://www.amazon.com/b/?node=2238192011&tag=googhydr-20&hvadid=550213431116&hvpos=&hvexid=&hvnetw=g&hvrand=2824838839347909905&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9129391&hvtargid=kwd-1158502147&ref=pd_sl_24826martu_e",
+                },
+                {
+                    "source": "apple",
+                    "site": "https://www.apple.com/shop/gift-cards"
+                },
+                {
+                    "source": "website",
+                    "site": "https://www.dickssportinggoods.com/s/gift-cards"
+                },
+                {
+                    "source": "website",
+                    "site": "https://www.jomalone.com/giftcards"
+                },
+            ]
+        }
 
     ]
 };

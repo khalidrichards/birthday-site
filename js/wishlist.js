@@ -5,6 +5,10 @@ var sourceImageMap = {
         "source": "font-awesome",
         "value": "fa-brands fa-amazon",
     },
+    "apple": {
+        "source": "font-awesome",
+        "value": "fa-brands fa-apple"
+    },
     "gamestop": {
         "source": "image",
         "value": "./img/gamestop.ico",
@@ -57,11 +61,24 @@ function wrapInI(text) {
 function renderWishlistItem(item) {
     var itemHtml = '<div class="wishlist_item col">';
     itemHtml += wrapInH3(item.name) + BR_TAG;
-    for (var source in item.sources) {
-        var link = item.sources[source];
-        var itemSrc = getImageForSource(source);
-        if (itemSrc !== undefined) {
-            itemHtml += '<a href="' + link + '">' + itemSrc + '</a>';
+    if (Array.isArray(item.sources)) {
+        console.log('there are multiple sources!');
+        itemHtml += '<div class="where-to-find"><i>Where to find: </i> ';
+        for (var i = 0; i < item.sources.length; i++) {
+            var src = item.sources[i];
+            itemSrc = getImageForSource(src.source);
+            itemHtml += '<a href="' + src.site + '">' + itemSrc + '</a>';
+        }
+        itemHtml += '</div>';
+    } else {
+        for (var source in item.sources) {
+            var link = item.sources[source];
+            var itemSrc = getImageForSource(source);
+            if (itemSrc !== undefined) {
+                itemHtml += '<div class="where-to-find"><i>Where to find:</i> ';
+                itemHtml += '<a href="' + link + '">' + itemSrc + '</a>';
+                itemHtml += '</div>'
+            }
         }
     }
     itemHtml += "</div>" + BR_TAG;
@@ -76,10 +93,10 @@ function renderAllWishlistItems(wishlist) {
         var categoryTitle = transformCategoryKeyIntoName(category);
         wishlistHtml += wrapInH3(categoryTitle);
         wishlistHtml += '</div>';
-        wishlistHtml += '<div class="wishlist-items row">';
+        wishlistHtml += '<div class="wishlist-items container">';
         var categoryItems = wishlist[category];
         for (var i = 0; i < categoryItems.length; i++) {
-            wishlistHtml += '<div class="col">';
+            wishlistHtml += '<div class="row">';
             wishlistHtml += renderWishlistItem(categoryItems[i]);
             wishlistHtml += '</div>';
         }

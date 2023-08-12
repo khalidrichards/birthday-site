@@ -1,6 +1,6 @@
 var BR_TAG = "<br />"
 var FORMS_LINK = 'https://docs.google.com/forms/d/e/1FAIpQLScO5VYHAXun4djnJ39Buj9hBUGknxBlK2BGbAfpJRJNAcs0UA/viewform?usp=pp_url&entry.915385680=Your+Name+Here';
-var events_text = 'Below is a listing of the events planned for the weekend! Please take a look at fill out <a href="' + FORMS_LINK + '">this form</a> to let me know what you\'d like to attend.';
+var events_text = '<h2>TL;DR: Look at the agenda below and FILL <a href="' + FORMS_LINK + '">THIS FORM OUT ASAP</a>. YOU WILL NOT BE ACCOUNTED FOR AFTER 8/15.</h2>';
 function wrapInH2(text) {
     return "<h2>" + text + "</h2>";
 }

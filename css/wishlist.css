@@ -1,9 +1,13 @@
 .wishlist-items {
     background-color: #7a73fb;
-    border-radius: 75px;
+    border-radius: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 15px;
+}
+
+.wishlist_item {
+    padding-bottom: 15px;
 }
 
 .faq_question {
@@ -12,4 +16,16 @@
 
 .faq_answer {
     font-size: 16pt;
+}
+
+.fa-amazon {
+    color: black;
+}
+
+.fa-globe {
+    color: black;
+}
+
+.fa-apple {
+    color: black;
 }
