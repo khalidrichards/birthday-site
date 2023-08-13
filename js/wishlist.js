@@ -1,4 +1,11 @@
 var BR_TAG = "<br />"
+var LINK_TO_WISHLIST_SPREADSHEET= 'https://docs.google.com/spreadsheets/d/1qFYMGCY_FiwfR1gmOfN68W7l7LdWILBsGdUM3Hl58ko/edit?resourcekey#gid=1665338705';
+var LINK_TO_WISHLIST_FORM = 'https://forms.gle/XjUctuGoSEVcG6kv6';
+var INSTRUCTIONS = 'Below is a (not-required) list of things to give folks an idea of gifts I might like. ';
+INSTRUCTIONS += 'If you plan on getting one, please check <a href="' + LINK_TO_WISHLIST_SPREADSHEET + '">';
+INSTRUCTIONS += 'this spreadsheet</a> to make sure you aren\'t getting a gift that doesn\t make sense to have multiples of, ';
+INSTRUCTIONS += 'then fill out <a href="' + LINK_TO_WISHLIST_FORM + '"> this form</a> to let folks know what you got! Thanks!';
+INSTRUCTIONS += BR_TAG + " (Note: I will not be checking this spreadsheet!)";
 
 var sourceImageMap = {
     "amazon": {
@@ -87,6 +94,7 @@ function renderWishlistItem(item) {
 
 function renderAllWishlistItems(wishlist) {
     var wishlistHtml = '<h2 class="section-header"> Birthday Wishlist </h2>' + BR_TAG;
+    wishlistHtml += wrapInH3(INSTRUCTIONS) + BR_TAG;
     for (var category in wishlist) {
         wishlistHtml += '<div class="wishlist-category">';
         wishlistHtml += '<div class="wishlist-category-name">';
