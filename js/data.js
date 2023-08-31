@@ -2,9 +2,9 @@ var events = {
     "events": [
         {
             "date": "09/08/2023",
-            "event_title": "Karaoke",
-            "event_description": "Lorem ipsum blah",
-            "event_location": "KTown",
+            "event_title": "Karaoke @ Karaoke City",
+            "event_description": "Come prepared to SANG! We're going to go through three hours of hits!",
+            "event_location": "22 W 32nd St, 7th Floor New York, NY 10001",
             "start_time": "06:15 PM",
             "end_time": "09:15PM"
         },
@@ -24,9 +24,9 @@ var events = {
         },
         {
             "date": "09/09/2023",
-            "event_title": "A Fancier Dinner",
-            "event_description": "Lorem ipsum blah",
-            "event_location": "Somewhere",
+            "event_title": "Dinner @ Baron's",
+            "event_description": "A large dinner with friends and family.",
+            "event_location": "564 Dekalb Ave, Brooklyn, NY 11205",
             "start_time": "07:00 PM"
         },
         {
