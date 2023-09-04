@@ -5,7 +5,7 @@ var events = {
             "event_title": "Karaoke @ Karaoke City",
             "event_description": "Come prepared to SANG! We're going to go through three hours of hits!",
             "event_location": "22 W 32nd St, 7th Floor New York, NY 10001",
-            "start_time": "06:15 PM",
+            "start_time": "06:15 PM (sharp)",
             "end_time": "09:15PM"
         },
         {
@@ -20,14 +20,14 @@ var events = {
             "event_title": "Bowling",
             "event_description": "While I'm not great at bowling, I still have occasional cravings for the sport. Let's enjoy some light refreshments and embarrass ourselves.",
             "event_location": "Frames Bowling Lounge",
-            "start_time": "02:00 PM"
+            "start_time": "01:00 PM (sharp)"
         },
         {
             "date": "09/09/2023",
             "event_title": "Dinner @ Baron's",
-            "event_description": "A large dinner with friends and family.",
+            "event_description": "A large dinner with friends and family. (Website: http://barons-brooklyn.com/)",
             "event_location": "564 Dekalb Ave, Brooklyn, NY 11205",
-            "start_time": "07:00 PM"
+            "start_time": "07:00 PM (sharp)"
         },
         {
             "date": "09/10/2023",
