@@ -10,16 +10,16 @@ var events = {
         },
         {
             "date": "09/08/2023",
-            "event_title": "Post-Karaoke Dinner",
+            "event_title": "Post-Karaoke Dinner @ Turntable Chicken Jazz",
             "event_description": "After singing our hearts out, let's enjoy some KFC (Korean Fried Chicken) together!",
-            "event_location": "Turntable Chicken Jazz",
+            "event_location": "20 W 33rd St, New York, NY 10001",
             "start_time": "09:30 PM"
         },
         {
             "date": "09/09/2023",
-            "event_title": "Bowling",
+            "event_title": "Bowling @ Frames Bowling Lounge",
             "event_description": "While I'm not great at bowling, I still have occasional cravings for the sport. Let's enjoy some light refreshments and embarrass ourselves.",
-            "event_location": "Frames Bowling Lounge",
+            "event_location": "550 9th Ave, New York, NY 10018",
             "start_time": "01:00 PM <b>(sharp)</b>"
         },
         {
@@ -38,9 +38,9 @@ var events = {
         },
         {
             "date": "09/10/2023",
-            "event_title": "More Games! D&B",
+            "event_title": "More Games! @ Dave & Buster's",
             "event_description": "Anyone who knows me knows how much I love a good time at the arcade. Let's play some games, maybe grab some drinks and finish the weekend off strong.",
-            "event_location": "Dave & Buster's (@ Atlantic Center)",
+            "event_location": "625 Atlantic Ave, Brooklyn, NY 11217",
             "start_time": "03:00 PM"
         }
     ]
