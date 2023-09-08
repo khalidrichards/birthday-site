@@ -92,7 +92,7 @@ var wishlist = {
         {
             "name": "Queen by Midnight",
             "sources": {
-                "website": "https://darringtonpress.com/queen-by-midnights-gen-con-debut-how-to-play-and-full-release/ (Note: Only available after Aug 22.)"
+                "website": "https://darringtonpress.com/shop/ (Note: Only available after Aug 22.)"
             }
         },
         {
