@@ -31,8 +31,8 @@ var events = {
         },
         {
             "date": "09/10/2023",
-            "event_title": "Brunch @ Bacchus (<a href=\"https://bacchusbistro.com/\">Website</a>)",
-            "event_description": "Let's start the beginning of the end of the weekend with a bit of brunch.",
+            "event_title": "Brunch @ Bacchus",
+            "event_description": "Let's start the beginning of the end of the weekend with a bit of brunch.  (<a href=\"https://bacchusbistro.com/\">Website</a>)",
             "event_location": "409 Atlantic Avenue, Brooklyn, NY, 11217",
             "start_time": "12:30PM"
         },
