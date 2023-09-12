@@ -12,6 +12,8 @@
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     </head>
     <body>
+        <div id="checkback" class="container text-center">
+        </div> 
         <div id="header" class="container text-center">
             <h1> Khalid's 30th Birthday</h1>
             <div id="countdown"></div>
@@ -34,6 +36,7 @@
         <div id="wishlist" class="container hidden"></div>
         <div id="faq" class="container hidden"></div>
 
+        <script src="./js/checkback.js"></script>
         <script src="./js/countdown.js"></script>
         <script src="./js/data.js"></script>
         <script src="./js/events.js"></script>
@@ -41,22 +44,28 @@
         <script src="./js/faq.js"></script>
         <script src="./js/navigation.js"></script>
         <script>
-            /* Set up the Countdown */
-            updateCountdown();
-            setTimeout(updateCountdown, 60 * 60 * 24 * 1000); /* Updates every 24 hours */
+            if (!shouldHideEventContent()) {
+                /* Set up the Countdown */
+                updateCountdown();
+                setTimeout(updateCountdown, 60 * 60 * 24 * 1000); /* Updates every 24 hours */
 
-            /* Set up the events. */
-            renderAllEvents(events.events);
+                /* Set up the events. */
+                renderAllEvents(events.events);
 
-            /* Set up the wishlist elements */
-            renderAllWishlistItems(wishlist);
+                /* Set up the wishlist elements */
+                renderAllWishlistItems(wishlist);
 
-            /* Set up FAQ */
-            renderAllFaq(faq.faq);
-            initializeFaq();
+                /* Set up FAQ */
+                renderAllFaq(faq.faq);
+                initializeFaq();
 
-            /* Set up the page */
-            setUpNavigation();
+                /* Set up the page */
+                setUpNavigation();
+            } else {
+                hideAllEventContent();
+                renderCheckBack();
+            }
+
         </script>
     </body>
 </html>
